@@ -1,5 +1,9 @@
 import boto3
 import json
+import os 
+
+# set the output file name
+output_file=os.path.splitext(os.path.basename(__file__))[0]+'.md'
 
 bedrock = boto3.client(
   service_name='bedrock-runtime', 
