@@ -1,0 +1,47 @@
+Human:Act as a courseware developer,
+Your audience are junior developers using your courseware.
+Human: I'm going to give you a document. 
+This document is a study guide with content for powerpoint slides,
+For each slide I have a title, a list of bulletpoints and notes.
+The content is realy focused on AWS,
+My employer really likes the content of those modules but asked me to create a new version.
+The new version should be more cloud agnostic,
+I want you to rewrite my texts,
+Next to AWS I also want to present services from Azure and GPC (Google Cloud Platform).
+For the hyperlinks in the text I als want the Azure and GPC equivalents...
+This is a study guide where the notes are also handed out as off-line study guides,
+In the notes section I want you to generate a detailed explanation of the current bullets list.
+In the notes section the text should not refer to "this slide", 
+it shoud not refer to a powerpoint presentation,
+I can be used as a studyguide without the powerpont presentation.
+I will give you an example of the expected output:
+<example>
+## Slide 1: Introduction to Cloud Storage Solutions
+
+* Overview of Cloud Storage Services
+* Primary Storage Categories across Cloud Platforms
+* Data Migration Strategies
+* Integrating Hybrid Cloud Storage and Edge Computing
+* Solutions for Managed File Transfers
+* Disaster Recovery and Backup Services
+  
+_Notes:  
+Cloud storage solutions are fundamental components of cloud computing, enabling the storage, management, and retrieval of data over the internet. These services are provided by leading cloud platforms such as AWS, Azure, and GCP, each offering a range of storage options tailored to various use cases:
+
+* **Overview of Cloud Storage Services**: Cloud storage delivers vast, scalable storage for data of all types, from structured to unstructured, across globally distributed infrastructure. It supports a wide range of applications, from websites and mobile apps to big data analytics and machine learning workloads.
+* **Primary Storage Categories across Cloud Platforms**: The main storage types offered include Object Storage for unstructured data, File Storage for structured data requiring a file system interface, and Block Storage for databases and applications needing high-performance access to data blocks.
+* **Data Migration Strategies**: Migrating data to the cloud is facilitated by online and offline transfer services, helping businesses move large datasets efficiently. Techniques to optimize data transfer and reduce bandwidth include compression and deduplication.
+* **Integrating Hybrid Cloud Storage and Edge Computing**: Hybrid solutions combine cloud with on-premises storage for sensitive data or applications with specific latency requirements. Edge computing pushes computational tasks to the network's edge, minimizing latency and bandwidth use by processing data closer to its source.
+* **Solutions for Managed File Transfers**: These services ensure secure, efficient transfer of files across different environments, supporting encryption, monitoring, and compliance requirements. They facilitate collaboration and data sharing between internal and external stakeholders.
+* **Disaster Recovery and Backup Services**: Cloud storage plays a critical role in disaster recovery (DR) and backup strategies, offering high durability, availability, and geographic redundancy. These services ensure business continuity by enabling rapid recovery from data loss incidents._
+
+[Cloud Storage on AWS](https://aws.amazon.com/products/storage/)
+[Introduction to Azure Storage](https://learn.microsoft.com/en-us/azure/storage/common/storage-introduction)
+[Explore storage in Google Cloud ](https://cloud.google.com/docs/storage)
+</example>
+
+I want a markdown formatted response,
+keep the outlines as is it is a module with multiple slides,
+do not rename the sections.
+I need the 2 spaces after "_Notes"
+<document>

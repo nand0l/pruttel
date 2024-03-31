@@ -2,23 +2,21 @@ import boto3
 import json
 import os
 
-# set the output file name
-output_file=os.path.splitext(os.path.basename(__file__))[0]+'.md'
+# Set the output file name
+output_file = os.path.splitext(os.path.basename(__file__))[0] + '.md'
+
 # Initialize the Bedrock client
 bedrock = boto3.client(service_name="bedrock-runtime", region_name='us-east-1')
 
 # Model and request configuration
-modelId = "anthropic.claude-3-haiku-20240307-v1:0"
+model_id = "anthropic.claude-3-haiku-20240307-v1:0"
 accept = "application/json"
-contentType = "application/json"
-prompt = """
-Write a medium blog post on how to use 
-Amazon Bedrock to write an article on how to use Bedrock.
-"""
+content_type = "application/json"
+prompt = """Write python code for uploading the image to Amazon S3 bucket. Certainly! Here's an example of python code to upload an image to Amazon S3 bucket:...."""
 
 # Invoke the model
 response = bedrock.invoke_model(
-    modelId=modelId,
+    modelId=model_id,
     body=json.dumps({
         "anthropic_version": "bedrock-2023-05-31",
         "max_tokens": 1024,
@@ -44,6 +42,7 @@ print(f"- The input length is {input_tokens} tokens.")
 print(f"- The output length is {output_tokens} tokens.")
 print(f"- The model returned {len(output_list)} response(s):")
 
+# Write the output to the file and print
 with open(output_file, 'w') as file:
     for output in output_list:
         file.write(output["text"])

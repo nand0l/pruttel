@@ -10,10 +10,8 @@ bedrock = boto3.client(
   region_name="us-east-1"
 )
 
-prompt = """
-Write a medium blog post on how to use 
-Amazon Bedrock to write an article on how to use Bedrock.
-"""
+#prompt = """Write a medium blog post on how to use Amazon Bedrock to write an article on how to use Bedrock."""
+prompt = """Write python code for uploading the image to Amazon S3 bucket. Certainly! Here's an example of python code to upload an image to Amazon S3 bucket:...."""
 
 body = json.dumps({
     "prompt": prompt,
@@ -31,4 +29,7 @@ response = bedrock.invoke_model(body=body, modelId=modelId, accept=accept, conte
 
 response_body = json.loads(response.get('body').read())
 
-print(response_body['generations'][0]['text'])
+content_text=(response_body['generations'][0]['text'])
+print(content_text)
+with open(output_file, 'w') as file:
+    file.write(content_text)
