@@ -1,0 +1,37 @@
+I have a folder of files,
+these files all have the structure in the example
+
+<example>
+---
+title: Module 00 - Course Overview
+description: This module introduces the course, emphasizing the role of courseware development in cloud computing. It highlights the comprehensive overview of each module, aiming to blend theoretical knowledge with practical experience across various cloud platforms.
+date: 2023-12-05
+tags:
+  - Introduction
+---
+
+## Slide 1: Introduction
+
+- Role of a developer in cloud computing
+- Comprehensive overview of each module
+- Theoretical knowledge and practical hands-on experience
+
+_Notes:
+This introductory module sets the stage for our comprehensive journey through cloud computing concepts. As courseware developers, our goal is to equip participants with a broad understanding of cloud technologies, preparing them for practical application and deeper exploration._
+</example>
+
+<expected>
+# Module 00 - Course Overview
+
+## Slide 1: Introduction
+
+- Role of a developer in cloud computing
+- Comprehensive overview of each module
+- Theoretical knowledge and practical hands-on experience
+
+_Notes:
+This introductory module sets the stage for our comprehensive journey through cloud computing concepts. As courseware developers, our goal is to equip participants with a broad understanding of cloud technologies, preparing them for practical application and deeper exploration._
+
+</expected>
+
+I want the header of all files to be reformatted to the expected result
