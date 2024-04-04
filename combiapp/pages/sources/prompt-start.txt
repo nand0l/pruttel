@@ -40,7 +40,7 @@ Cloud storage solutions are fundamental components of cloud computing, enabling 
 [Explore storage in Google Cloud ](https://cloud.google.com/docs/storage)
 </example>
 
-I want a markdown formatted response,
+
 keep the outlines as is it is a module with multiple slides,
 do not rename the sections.
 I need the 2 spaces after "_Notes"

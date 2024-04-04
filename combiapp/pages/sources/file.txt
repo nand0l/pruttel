@@ -1,0 +1,22 @@
+file_names = [
+    "C:\code\Essa\ESSA-REACT\src\assets\courseware\file.txt",
+    "C:\code\Essa\ESSA-REACT\src\assets\courseware\Module00-CourseIntroduction.md",
+    "C:\code\Essa\ESSA-REACT\src\assets\courseware\Module01-IntroductionIntoCloud.md",
+    "C:\code\Essa\ESSA-REACT\src\assets\courseware\Module02-SecurityandtheCloud.md",
+    "C:\code\Essa\ESSA-REACT\src\assets\courseware\module03-PoliciesandPermissions.md",
+    "C:\code\Essa\ESSA-REACT\src\assets\courseware\Module04-StorageServices.md",
+    "C:\code\Essa\ESSA-REACT\src\assets\courseware\Module05-ComputeinCloud.md",
+    "C:\code\Essa\ESSA-REACT\src\assets\courseware\Module06-ConnectingintheCloud.md",
+    "C:\code\Essa\ESSA-REACT\src\assets\courseware\Module07-CloudDatabases.md",
+    "C:\code\Essa\ESSA-REACT\src\assets\courseware\Module08-MonitoringandLogging.md",
+    "C:\code\Essa\ESSA-REACT\src\assets\courseware\Module09-ProtectingInfrastructure.md",
+    "C:\code\Essa\ESSA-REACT\src\assets\courseware\Module10-DevOpsPractices.md",
+    "C:\code\Essa\ESSA-REACT\src\assets\courseware\Module11-MicroservicesArchitecture.md",
+    "C:\code\Essa\ESSA-REACT\src\assets\courseware\Module12-ServerlessComputing.md",
+    "C:\code\Essa\ESSA-REACT\src\assets\courseware\Module13-CICD.md",
+    "C:\code\Essa\ESSA-REACT\src\assets\courseware\Module14-CloudSecurityAdvancedConcepts.md",
+    "C:\code\Essa\ESSA-REACT\src\assets\courseware\Module15-Cloud-NativeApplications.md",
+    "C:\code\Essa\ESSA-REACT\src\assets\courseware\Module16-EmergingTechnologiesinCloudComputing.md",
+    "C:\code\Essa\ESSA-REACT\src\assets\courseware\Module17-CloudDataAnalyticsandBigData.md",
+    "C:\code\Essa\ESSA-REACT\src\assets\courseware\Module18-WrapupandReview.md"
+]
